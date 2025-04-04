@@ -7,7 +7,7 @@
 ;; Keywords: faces
 
 ;;; Commentary:
-;; This theme is generated from the iTerm2 color scheme you provided.
+;; This theme is inpsired from the iTerm2 color scheme vaugan.
 ;; Place this file in your Emacs load path, then run:
 ;;
 ;;   M-x load-theme RET vaugan RET
@@ -23,6 +23,9 @@
 (deftheme vaugan
   "An Emacs theme inspired by the provided iTerm2 colors.")
 
+
+;; Got the Vaugan theme colors from Iterm Themes, need to convert them
+;; to supported format
 ;; Convert 0.0-1.0 floats to 00-FF hex components:
 (defun vaugan-theme--to-hex (r g b)
   (format "#%02X%02X%02X"
@@ -30,10 +33,7 @@
           (round (* 255 g))
           (round (* 255 b))))
 
-;;------------------------------------------------------------------
-;; Here are the raw RGB float values from your iTerm2 file
-;; (Background Color, Foreground Color, etc.), converted to hex.
-;;------------------------------------------------------------------
+;; Get the RGB values from Iterm themes color
 
 (let* (
        ;; Background Color

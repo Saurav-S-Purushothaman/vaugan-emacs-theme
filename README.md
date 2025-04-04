@@ -1,11 +1,8 @@
 # Vaugan #
 
-This Emacs theme, Vaugan, is a vaugan color inspired theme for
-programmers who prefer a clean and focused coding environment. Inspired
-by the calming warmth of the color Vaugan, this theme strips away
-unnecessary colors, doesn't tries to make your editor look like a fruit
-salad, allowing your attention to stay sharp on the code
-itself.
+This Emacs theme, Vaugan, is a vaugan color inspired from iterm colors
+theme for programmers who prefer a clean and focused coding
+environment.
 
 # Screenshot #
 
